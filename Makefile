@@ -19,7 +19,7 @@ build:
 
 run: build
 	@echo -e $(TITLE_START)Runnin for Localhost $(TITLE_END)
-	bin/isupyet localhost
+	bin/isupyet www.google.com
 
 clean:
 	rm -rf dist/
